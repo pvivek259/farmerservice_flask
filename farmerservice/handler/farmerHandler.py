@@ -14,6 +14,8 @@ class FarmerHandler(Resource):
         resp = farmer_list(request)
         return resp
 
+class GetFarmer(Resource):
+
     def get(self):
         request_data = self.get
         resp = get_farmer(request)
