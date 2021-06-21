@@ -1,0 +1,493 @@
+2021-06-17 18:12:03,444 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:12:03,446 INFO supervisord started with pid 14998
+2021-06-17 18:12:04,448 INFO spawnerr: can't find command '/home/user/agrostar-workspace/ENVS/fenv/bin/gunicorn'
+2021-06-17 18:12:05,452 INFO spawnerr: can't find command '/home/user/agrostar-workspace/ENVS/fenv/bin/gunicorn'
+2021-06-17 18:12:07,456 INFO spawnerr: can't find command '/home/user/agrostar-workspace/ENVS/fenv/bin/gunicorn'
+2021-06-17 18:12:10,462 INFO spawnerr: can't find command '/home/user/agrostar-workspace/ENVS/fenv/bin/gunicorn'
+2021-06-17 18:12:10,463 INFO gave up: farmerservice entered FATAL state, too many start retries too quickly
+2021-06-17 18:12:15,740 WARN received SIGINT indicating exit request
+2021-06-17 18:17:46,432 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:17:46,433 INFO supervisord started with pid 15146
+2021-06-17 18:17:47,440 INFO spawned: 'farmerservice' with pid 15149
+2021-06-17 18:17:47,491 INFO exited: farmerservice (exit status 2; not expected)
+2021-06-17 18:17:48,497 INFO spawned: 'farmerservice' with pid 15150
+2021-06-17 18:17:48,525 INFO exited: farmerservice (exit status 2; not expected)
+2021-06-17 18:17:50,532 INFO spawned: 'farmerservice' with pid 15152
+2021-06-17 18:17:50,554 INFO exited: farmerservice (exit status 2; not expected)
+2021-06-17 18:17:53,564 INFO spawned: 'farmerservice' with pid 15153
+2021-06-17 18:17:53,617 INFO exited: farmerservice (exit status 2; not expected)
+2021-06-17 18:17:54,618 INFO gave up: farmerservice entered FATAL state, too many start retries too quickly
+2021-06-17 18:17:54,837 WARN received SIGINT indicating exit request
+2021-06-17 18:19:27,663 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:19:27,664 INFO supervisord started with pid 15192
+2021-06-17 18:19:28,670 INFO spawned: 'farmerservice' with pid 15195
+2021-06-17 18:19:28,699 INFO exited: farmerservice (exit status 2; not expected)
+2021-06-17 18:19:29,705 INFO spawned: 'farmerservice' with pid 15196
+2021-06-17 18:19:29,740 INFO exited: farmerservice (exit status 2; not expected)
+2021-06-17 18:19:31,573 WARN received SIGINT indicating exit request
+2021-06-17 18:20:16,649 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:20:16,650 INFO supervisord started with pid 15209
+2021-06-17 18:20:17,653 INFO spawned: 'farmerservice' with pid 15212
+2021-06-17 18:20:17,708 INFO exited: farmerservice (exit status 2; not expected)
+2021-06-17 18:20:18,713 INFO spawned: 'farmerservice' with pid 15213
+2021-06-17 18:20:18,741 INFO exited: farmerservice (exit status 2; not expected)
+2021-06-17 18:20:20,748 INFO spawned: 'farmerservice' with pid 15214
+2021-06-17 18:20:20,802 INFO exited: farmerservice (exit status 2; not expected)
+2021-06-17 18:20:22,496 WARN received SIGINT indicating exit request
+2021-06-17 18:25:38,395 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:25:38,396 INFO supervisord started with pid 15380
+2021-06-17 18:25:39,402 INFO spawned: 'farmerservice' with pid 15384
+2021-06-17 18:25:39,436 INFO exited: farmerservice (exit status 2; not expected)
+2021-06-17 18:25:40,443 INFO spawned: 'farmerservice' with pid 15385
+2021-06-17 18:25:40,471 INFO exited: farmerservice (exit status 2; not expected)
+2021-06-17 18:25:41,836 WARN received SIGINT indicating exit request
+2021-06-17 18:25:43,208 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:25:43,209 INFO supervisord started with pid 15386
+2021-06-17 18:25:43,927 INFO spawned: 'farmerservice' with pid 15389
+2021-06-17 18:25:43,929 WARN received SIGINT indicating exit request
+2021-06-17 18:25:43,932 INFO waiting for farmerservice to die
+2021-06-17 18:25:43,977 INFO stopped: farmerservice (exit status 2)
+2021-06-17 18:31:20,317 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:31:20,319 INFO supervisord started with pid 15534
+2021-06-17 18:31:21,324 INFO spawned: 'farmerservice' with pid 15537
+2021-06-17 18:31:22,924 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:31:28,249 WARN received SIGINT indicating exit request
+2021-06-17 18:31:28,249 INFO waiting for farmerservice to die
+2021-06-17 18:31:28,445 WARN received SIGINT indicating exit request
+2021-06-17 18:31:28,585 WARN received SIGINT indicating exit request
+2021-06-17 18:31:31,589 INFO waiting for farmerservice to die
+2021-06-17 18:31:34,595 INFO waiting for farmerservice to die
+2021-06-17 18:31:37,600 INFO waiting for farmerservice to die
+2021-06-17 18:31:38,602 WARN killing 'farmerservice' (15537) with SIGKILL
+2021-06-17 18:31:38,608 INFO stopped: farmerservice (terminated by SIGKILL)
+2021-06-17 18:32:20,192 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:32:20,193 INFO supervisord started with pid 15567
+2021-06-17 18:32:21,199 INFO spawned: 'farmerservice' with pid 15570
+2021-06-17 18:32:22,408 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:32:26,448 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:32:27,453 INFO spawned: 'farmerservice' with pid 15573
+2021-06-17 18:32:28,656 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:32:30,872 WARN received SIGINT indicating exit request
+2021-06-17 18:32:30,873 INFO waiting for farmerservice to die
+2021-06-17 18:32:31,760 WARN received SIGINT indicating exit request
+2021-06-17 18:32:32,151 WARN received SIGINT indicating exit request
+2021-06-17 18:32:32,498 WARN received SIGINT indicating exit request
+2021-06-17 18:32:32,717 INFO stopped: farmerservice (exit status 1)
+2021-06-17 18:33:14,754 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:33:14,755 INFO supervisord started with pid 15601
+2021-06-17 18:33:15,760 INFO spawned: 'farmerservice' with pid 15604
+2021-06-17 18:33:16,982 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:33:21,018 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:33:22,023 INFO spawned: 'farmerservice' with pid 15607
+2021-06-17 18:33:23,228 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:33:26,572 WARN received SIGINT indicating exit request
+2021-06-17 18:33:26,573 INFO waiting for farmerservice to die
+2021-06-17 18:33:26,912 WARN received SIGINT indicating exit request
+2021-06-17 18:33:27,105 WARN received SIGINT indicating exit request
+2021-06-17 18:33:27,290 INFO stopped: farmerservice (exit status 1)
+2021-06-17 18:34:41,488 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:34:41,490 INFO supervisord started with pid 15635
+2021-06-17 18:34:42,495 INFO spawned: 'farmerservice' with pid 15640
+2021-06-17 18:34:43,694 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:34:47,735 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:34:48,739 INFO spawned: 'farmerservice' with pid 15644
+2021-06-17 18:34:49,941 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:34:53,985 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:34:54,117 INFO spawned: 'farmerservice' with pid 15648
+2021-06-17 18:34:54,118 WARN received SIGINT indicating exit request
+2021-06-17 18:34:54,119 INFO waiting for farmerservice to die
+2021-06-17 18:34:54,315 WARN received SIGINT indicating exit request
+2021-06-17 18:34:54,512 WARN received SIGINT indicating exit request
+2021-06-17 18:34:57,348 INFO waiting for farmerservice to die
+2021-06-17 18:34:59,431 INFO stopped: farmerservice (exit status 1)
+2021-06-17 18:37:00,544 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:37:00,546 INFO supervisord started with pid 15834
+2021-06-17 18:37:01,551 INFO spawned: 'farmerservice' with pid 15837
+2021-06-17 18:37:02,776 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:37:20,057 WARN received SIGINT indicating exit request
+2021-06-17 18:37:20,057 INFO waiting for farmerservice to die
+2021-06-17 18:37:20,221 WARN received SIGINT indicating exit request
+2021-06-17 18:37:20,283 INFO stopped: farmerservice (exit status 0)
+2021-06-17 18:37:21,408 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:37:21,410 INFO daemonizing the supervisord process
+2021-06-17 18:37:21,410 INFO supervisord started with pid 15846
+2021-06-17 18:37:22,416 INFO spawned: 'farmerservice' with pid 15847
+2021-06-17 18:37:23,612 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:37:36,852 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:37:36,854 INFO supervisord started with pid 15854
+2021-06-17 18:37:37,859 INFO spawned: 'farmerservice' with pid 15857
+2021-06-17 18:37:39,081 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:37:42,012 WARN received SIGINT indicating exit request
+2021-06-17 18:37:42,013 INFO waiting for farmerservice to die
+2021-06-17 18:37:42,191 WARN received SIGINT indicating exit request
+2021-06-17 18:37:42,364 WARN received SIGINT indicating exit request
+2021-06-17 18:37:42,521 WARN received SIGINT indicating exit request
+2021-06-17 18:37:43,143 INFO stopped: farmerservice (exit status 1)
+2021-06-17 18:39:04,189 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:39:04,190 INFO supervisord started with pid 15934
+2021-06-17 18:39:05,195 INFO spawned: 'farmerservice' with pid 15937
+2021-06-17 18:39:06,419 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:39:10,506 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:39:11,512 INFO spawned: 'farmerservice' with pid 15940
+2021-06-17 18:39:12,737 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:39:16,798 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:39:17,804 INFO spawned: 'farmerservice' with pid 15943
+2021-06-17 18:39:18,158 WARN received SIGINT indicating exit request
+2021-06-17 18:39:18,160 INFO waiting for farmerservice to die
+2021-06-17 18:39:18,367 WARN received SIGINT indicating exit request
+2021-06-17 18:39:18,552 WARN received SIGINT indicating exit request
+2021-06-17 18:39:20,428 WARN received SIGINT indicating exit request
+2021-06-17 18:39:20,610 WARN received SIGINT indicating exit request
+2021-06-17 18:39:20,775 WARN received SIGINT indicating exit request
+2021-06-17 18:39:20,938 WARN received SIGINT indicating exit request
+2021-06-17 18:39:21,120 WARN received SIGINT indicating exit request
+2021-06-17 18:39:21,290 WARN received SIGINT indicating exit request
+2021-06-17 18:39:21,291 INFO waiting for farmerservice to die
+2021-06-17 18:39:21,443 WARN received SIGINT indicating exit request
+2021-06-17 18:39:21,594 WARN received SIGINT indicating exit request
+2021-06-17 18:39:21,754 WARN received SIGINT indicating exit request
+2021-06-17 18:39:22,717 WARN received SIGINT indicating exit request
+2021-06-17 18:39:22,893 WARN received SIGINT indicating exit request
+2021-06-17 18:39:23,044 WARN received SIGINT indicating exit request
+2021-06-17 18:39:23,069 INFO stopped: farmerservice (exit status 1)
+2021-06-17 18:39:33,085 INFO exited: farmerservice (terminated by SIGKILL; not expected)
+2021-06-17 18:39:33,086 INFO spawned: 'farmerservice' with pid 15952
+2021-06-17 18:39:34,283 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:39:42,538 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:39:42,539 INFO supervisord started with pid 15959
+2021-06-17 18:39:43,545 INFO spawned: 'farmerservice' with pid 15962
+2021-06-17 18:39:44,744 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:39:48,791 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:39:49,795 INFO spawned: 'farmerservice' with pid 15966
+2021-06-17 18:39:50,997 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:39:55,025 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:39:56,030 INFO spawned: 'farmerservice' with pid 15973
+2021-06-17 18:39:57,259 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:40:01,313 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:40:02,315 INFO spawned: 'farmerservice' with pid 15981
+2021-06-17 18:40:03,540 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:40:07,573 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:40:08,578 INFO spawned: 'farmerservice' with pid 15984
+2021-06-17 18:40:09,876 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:40:13,928 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:40:14,934 INFO spawned: 'farmerservice' with pid 15991
+2021-06-17 18:40:16,169 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:40:20,204 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:40:21,209 INFO spawned: 'farmerservice' with pid 15996
+2021-06-17 18:40:22,456 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:40:23,154 WARN received SIGINT indicating exit request
+2021-06-17 18:40:23,155 INFO waiting for farmerservice to die
+2021-06-17 18:40:23,342 WARN received SIGINT indicating exit request
+2021-06-17 18:40:23,499 WARN received SIGINT indicating exit request
+2021-06-17 18:40:24,105 WARN received SIGINT indicating exit request
+2021-06-17 18:40:24,312 WARN received SIGINT indicating exit request
+2021-06-17 18:40:24,479 WARN received SIGINT indicating exit request
+2021-06-17 18:40:24,642 WARN received SIGINT indicating exit request
+2021-06-17 18:40:24,785 WARN received SIGINT indicating exit request
+2021-06-17 18:40:24,948 WARN received SIGINT indicating exit request
+2021-06-17 18:40:25,114 WARN received SIGINT indicating exit request
+2021-06-17 18:40:26,470 INFO waiting for farmerservice to die
+2021-06-17 18:40:26,523 INFO stopped: farmerservice (exit status 1)
+2021-06-17 18:40:28,566 INFO exited: farmerservice (terminated by SIGKILL; not expected)
+2021-06-17 18:40:28,567 INFO spawned: 'farmerservice' with pid 16002
+2021-06-17 18:40:29,777 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:40:29,871 INFO exited: farmerservice (terminated by SIGKILL; not expected)
+2021-06-17 18:40:29,872 INFO spawned: 'farmerservice' with pid 16009
+2021-06-17 18:40:30,863 INFO exited: farmerservice (terminated by SIGKILL; not expected)
+2021-06-17 18:40:31,868 INFO spawned: 'farmerservice' with pid 16016
+2021-06-17 18:40:32,563 INFO exited: farmerservice (terminated by SIGKILL; not expected)
+2021-06-17 18:40:34,567 INFO spawned: 'farmerservice' with pid 16029
+2021-06-17 18:40:35,110 INFO exited: farmerservice (terminated by SIGKILL; not expected)
+2021-06-17 18:40:38,114 INFO spawned: 'farmerservice' with pid 16038
+2021-06-17 18:40:39,374 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:41:05,289 INFO exited: farmerservice (terminated by SIGKILL; not expected)
+2021-06-17 18:41:05,290 INFO spawned: 'farmerservice' with pid 16049
+2021-06-17 18:41:06,488 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:41:49,489 INFO exited: farmerservice (terminated by SIGKILL; not expected)
+2021-06-17 18:41:49,490 INFO spawned: 'farmerservice' with pid 16140
+2021-06-17 18:41:50,685 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:42:18,789 INFO exited: farmerservice (terminated by SIGKILL; not expected)
+2021-06-17 18:42:18,790 INFO spawned: 'farmerservice' with pid 16186
+2021-06-17 18:42:19,983 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:42:20,252 INFO exited: farmerservice (terminated by SIGKILL; not expected)
+2021-06-17 18:42:20,253 INFO spawned: 'farmerservice' with pid 16195
+2021-06-17 18:42:21,448 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:43:17,039 INFO exited: farmerservice (terminated by SIGKILL; not expected)
+2021-06-17 18:43:17,042 INFO spawned: 'farmerservice' with pid 16231
+2021-06-17 18:43:18,253 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:44:32,001 INFO exited: farmerservice (terminated by SIGKILL; not expected)
+2021-06-17 18:44:32,003 INFO spawned: 'farmerservice' with pid 16327
+2021-06-17 18:44:33,202 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:45:52,565 INFO exited: farmerservice (exit status 0; expected)
+2021-06-17 18:45:53,571 INFO spawned: 'farmerservice' with pid 16384
+2021-06-17 18:45:54,836 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:49:43,322 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:49:43,324 INFO supervisord started with pid 16582
+2021-06-17 18:49:44,329 INFO spawned: 'farmerservice' with pid 16585
+2021-06-17 18:49:45,528 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:50:17,526 WARN received SIGINT indicating exit request
+2021-06-17 18:50:17,527 INFO waiting for farmerservice to die
+2021-06-17 18:50:17,729 WARN received SIGINT indicating exit request
+2021-06-17 18:50:17,779 INFO stopped: farmerservice (exit status 0)
+2021-06-17 18:51:10,910 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:51:10,912 INFO daemonizing the supervisord process
+2021-06-17 18:51:10,912 INFO supervisord started with pid 16664
+2021-06-17 18:51:11,918 INFO spawned: 'farmerservice' with pid 16665
+2021-06-17 18:51:13,118 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:56:18,055 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:56:18,057 INFO daemonizing the supervisord process
+2021-06-17 18:56:18,057 INFO supervisord started with pid 16923
+2021-06-17 18:56:19,064 INFO spawned: 'farmerservice' with pid 16924
+2021-06-17 18:56:20,284 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:56:24,334 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:56:25,340 INFO spawned: 'farmerservice' with pid 16927
+2021-06-17 18:56:26,534 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:56:30,571 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:56:31,573 INFO spawned: 'farmerservice' with pid 16939
+2021-06-17 18:56:32,856 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:56:36,898 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:56:37,905 INFO spawned: 'farmerservice' with pid 16945
+2021-06-17 18:56:39,190 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:56:43,246 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:56:44,250 INFO spawned: 'farmerservice' with pid 16948
+2021-06-17 18:56:45,476 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:56:49,518 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:56:50,520 INFO spawned: 'farmerservice' with pid 16968
+2021-06-17 18:56:51,746 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:56:55,801 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:56:56,805 INFO spawned: 'farmerservice' with pid 16996
+2021-06-17 18:56:58,071 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:57:02,132 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:57:03,134 INFO spawned: 'farmerservice' with pid 17002
+2021-06-17 18:57:04,419 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:57:08,462 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:57:09,466 INFO spawned: 'farmerservice' with pid 17007
+2021-06-17 18:57:10,683 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:57:14,726 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:57:15,732 INFO spawned: 'farmerservice' with pid 17010
+2021-06-17 18:57:16,940 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:57:20,979 INFO exited: farmerservice (exit status 1; not expected)
+2021-06-17 18:57:21,981 INFO spawned: 'farmerservice' with pid 17014
+2021-06-17 18:57:22,970 WARN received SIGTERM indicating exit request
+2021-06-17 18:57:22,971 WARN received SIGTERM indicating exit request
+2021-06-17 18:57:22,971 INFO waiting for farmerservice to die
+2021-06-17 18:57:22,971 INFO waiting for farmerservice to die
+2021-06-17 18:57:22,972 WARN received SIGTERM indicating exit request
+2021-06-17 18:57:22,973 INFO waiting for farmerservice to die
+2021-06-17 18:57:23,204 INFO stopped: farmerservice (exit status 0)
+2021-06-17 18:57:23,228 INFO stopped: farmerservice (exit status 0)
+2021-06-17 18:57:23,847 INFO stopped: farmerservice (exit status 0)
+2021-06-17 18:58:00,346 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:58:00,347 INFO daemonizing the supervisord process
+2021-06-17 18:58:00,348 INFO supervisord started with pid 17034
+2021-06-17 18:58:01,351 INFO spawned: 'farmerservice' with pid 17035
+2021-06-17 18:58:02,670 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:58:22,827 WARN received SIGTERM indicating exit request
+2021-06-17 18:58:22,828 INFO waiting for farmerservice to die
+2021-06-17 18:58:23,063 INFO stopped: farmerservice (exit status 0)
+2021-06-17 18:59:16,745 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:59:16,746 INFO daemonizing the supervisord process
+2021-06-17 18:59:16,747 INFO supervisord started with pid 17084
+2021-06-17 18:59:17,753 INFO spawned: 'farmerservice' with pid 17085
+2021-06-17 18:59:19,061 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 18:59:35,720 WARN received SIGTERM indicating exit request
+2021-06-17 18:59:35,720 INFO waiting for farmerservice to die
+2021-06-17 18:59:35,972 INFO stopped: farmerservice (exit status 0)
+2021-06-17 18:59:52,932 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 18:59:52,933 INFO daemonizing the supervisord process
+2021-06-17 18:59:52,934 INFO supervisord started with pid 17109
+2021-06-17 18:59:53,939 INFO spawned: 'farmerservice' with pid 17110
+2021-06-17 18:59:55,158 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 19:00:05,076 WARN received SIGTERM indicating exit request
+2021-06-17 19:00:05,076 INFO waiting for farmerservice to die
+2021-06-17 19:00:05,330 INFO stopped: farmerservice (exit status 0)
+2021-06-17 19:01:29,704 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 19:01:29,706 INFO daemonizing the supervisord process
+2021-06-17 19:01:29,706 INFO supervisord started with pid 17190
+2021-06-17 19:01:30,712 INFO spawned: 'farmerservice' with pid 17191
+2021-06-17 19:01:31,942 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 19:01:58,236 WARN received SIGTERM indicating exit request
+2021-06-17 19:01:58,236 INFO waiting for farmerservice to die
+2021-06-17 19:01:58,489 INFO stopped: farmerservice (exit status 0)
+2021-06-17 19:02:01,401 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 19:02:01,403 INFO daemonizing the supervisord process
+2021-06-17 19:02:01,404 INFO supervisord started with pid 17214
+2021-06-17 19:02:02,410 INFO spawned: 'farmerservice' with pid 17215
+2021-06-17 19:02:03,756 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 19:02:34,595 WARN received SIGTERM indicating exit request
+2021-06-17 19:02:34,595 INFO waiting for farmerservice to die
+2021-06-17 19:02:34,846 INFO stopped: farmerservice (exit status 0)
+2021-06-17 19:02:41,832 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 19:02:41,839 INFO daemonizing the supervisord process
+2021-06-17 19:02:41,840 INFO supervisord started with pid 17238
+2021-06-17 19:02:42,845 INFO spawned: 'farmerservice' with pid 17239
+2021-06-17 19:02:44,109 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 19:03:35,207 WARN received SIGTERM indicating exit request
+2021-06-17 19:03:35,207 INFO waiting for farmerservice to die
+2021-06-17 19:03:35,460 INFO stopped: farmerservice (exit status 0)
+2021-06-17 19:03:36,349 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 19:03:36,356 INFO daemonizing the supervisord process
+2021-06-17 19:03:36,356 INFO supervisord started with pid 17333
+2021-06-17 19:03:37,359 INFO spawned: 'farmerservice' with pid 17335
+2021-06-17 19:03:38,624 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 19:05:04,939 WARN received SIGTERM indicating exit request
+2021-06-17 19:05:04,939 INFO waiting for farmerservice to die
+2021-06-17 19:05:05,209 INFO stopped: farmerservice (exit status 0)
+2021-06-17 19:05:07,986 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 19:05:07,992 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-06-17 19:05:07,993 INFO daemonizing the supervisord process
+2021-06-17 19:05:07,993 INFO supervisord started with pid 17512
+2021-06-17 19:05:08,996 INFO spawned: 'farmerservice' with pid 17514
+2021-06-17 19:05:10,306 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 19:05:45,198 WARN received SIGTERM indicating exit request
+2021-06-17 19:05:45,198 INFO waiting for farmerservice to die
+2021-06-17 19:05:45,452 INFO stopped: farmerservice (exit status 0)
+2021-06-17 19:06:10,555 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 19:06:10,561 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-06-17 19:06:10,562 INFO daemonizing the supervisord process
+2021-06-17 19:06:10,562 INFO supervisord started with pid 17565
+2021-06-17 19:06:11,569 INFO spawned: 'farmerservice' with pid 17566
+2021-06-17 19:06:12,909 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 19:06:52,591 INFO waiting for farmerservice to stop
+2021-06-17 19:06:52,821 INFO stopped: farmerservice (exit status 0)
+2021-06-17 19:06:57,743 INFO spawned: 'farmerservice' with pid 17600
+2021-06-17 19:06:59,004 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 19:07:41,345 INFO waiting for farmerservice to stop
+2021-06-17 19:07:41,574 INFO stopped: farmerservice (exit status 0)
+2021-06-17 19:07:46,491 INFO spawned: 'farmerservice' with pid 17619
+2021-06-17 19:07:47,748 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 19:12:11,053 WARN received SIGTERM indicating exit request
+2021-06-17 19:12:11,053 INFO waiting for farmerservice to die
+2021-06-17 19:12:11,283 INFO stopped: farmerservice (exit status 0)
+2021-06-17 19:12:32,822 WARN For [program:farmerservice], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2021-06-17 19:12:32,828 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-06-17 19:12:32,829 INFO daemonizing the supervisord process
+2021-06-17 19:12:32,829 INFO supervisord started with pid 18010
+2021-06-17 19:12:33,832 INFO spawned: 'farmerservice' with pid 18011
+2021-06-17 19:12:35,083 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 19:15:57,142 WARN received SIGTERM indicating exit request
+2021-06-17 19:15:57,142 INFO waiting for farmerservice to die
+2021-06-17 19:15:57,373 INFO stopped: farmerservice (exit status 0)
+2021-06-17 19:16:04,725 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-06-17 19:16:04,726 INFO daemonizing the supervisord process
+2021-06-17 19:16:04,726 INFO supervisord started with pid 18083
+2021-06-17 19:16:05,733 INFO spawned: 'farmerservice' with pid 18084
+2021-06-17 19:16:06,955 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 19:17:43,245 WARN received SIGTERM indicating exit request
+2021-06-17 19:17:43,246 INFO waiting for farmerservice to die
+2021-06-17 19:17:43,470 INFO stopped: farmerservice (exit status 0)
+2021-06-17 19:17:53,211 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-06-17 19:17:53,212 INFO daemonizing the supervisord process
+2021-06-17 19:17:53,212 INFO supervisord started with pid 18162
+2021-06-17 19:17:54,219 INFO spawned: 'farmerservice' with pid 18163
+2021-06-17 19:17:55,412 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 19:18:02,805 INFO waiting for farmerservice to stop
+2021-06-17 19:18:03,055 INFO stopped: farmerservice (exit status 0)
+2021-06-17 19:18:05,062 INFO spawned: 'farmerservice' with pid 18173
+2021-06-17 19:18:06,303 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 19:20:16,516 WARN received SIGTERM indicating exit request
+2021-06-17 19:20:16,516 INFO waiting for farmerservice to die
+2021-06-17 19:20:16,742 INFO stopped: farmerservice (exit status 0)
+2021-06-17 19:21:28,813 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-06-17 19:21:28,813 INFO daemonizing the supervisord process
+2021-06-17 19:21:28,814 INFO supervisord started with pid 18238
+2021-06-17 19:21:29,820 INFO spawned: 'farmerservice' with pid 18240
+2021-06-17 19:21:31,043 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 19:32:55,869 WARN received SIGTERM indicating exit request
+2021-06-17 19:32:55,870 INFO waiting for farmerservice to die
+2021-06-17 19:32:56,091 INFO stopped: farmerservice (exit status 0)
+2021-06-17 19:34:28,684 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-06-17 19:34:28,684 INFO daemonizing the supervisord process
+2021-06-17 19:34:28,685 INFO supervisord started with pid 18462
+2021-06-17 19:34:29,691 INFO spawned: 'farmerservice' with pid 18463
+2021-06-17 19:34:30,887 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 19:45:43,010 INFO waiting for farmerservice to stop
+2021-06-17 19:45:43,259 INFO stopped: farmerservice (exit status 0)
+2021-06-17 19:45:45,267 INFO spawned: 'farmerservice' with pid 18626
+2021-06-17 19:45:46,498 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 19:45:55,123 INFO waiting for farmerservice to stop
+2021-06-17 19:45:55,368 INFO stopped: farmerservice (exit status 0)
+2021-06-17 19:46:02,986 INFO spawned: 'farmerservice' with pid 18632
+2021-06-17 19:46:04,235 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 20:24:33,753 INFO waiting for farmerservice to stop
+2021-06-17 20:24:33,991 INFO stopped: farmerservice (exit status 0)
+2021-06-17 20:24:34,997 INFO spawned: 'farmerservice' with pid 19298
+2021-06-17 20:24:36,266 INFO success: farmerservice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2021-06-17 21:50:28,669 WARN received SIGTERM indicating exit request
+2021-06-17 21:50:28,669 INFO waiting for farmerservice to die
+2021-06-17 21:50:28,891 INFO stopped: farmerservice (exit status 0)
+2021-06-18 13:00:12,550 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-06-18 13:00:12,551 INFO daemonizing the supervisord process
+2021-06-18 13:00:12,551 INFO supervisord started with pid 27401
+2021-06-18 13:00:13,558 INFO spawned: 'farmerservice' with pid 27402
+2021-06-18 13:00:13,823 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 13:00:14,828 INFO spawned: 'farmerservice' with pid 27406
+2021-06-18 13:00:15,090 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 13:00:17,094 INFO spawned: 'farmerservice' with pid 27410
+2021-06-18 13:00:17,349 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 13:00:20,356 INFO spawned: 'farmerservice' with pid 27414
+2021-06-18 13:00:20,634 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 13:00:21,636 INFO gave up: farmerservice entered FATAL state, too many start retries too quickly
+2021-06-18 13:02:55,728 WARN received SIGTERM indicating exit request
+2021-06-18 15:22:13,061 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2021-06-18 15:22:13,062 INFO daemonizing the supervisord process
+2021-06-18 15:22:13,062 INFO supervisord started with pid 29592
+2021-06-18 15:22:14,069 INFO spawned: 'farmerservice' with pid 29593
+2021-06-18 15:22:14,323 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:22:15,329 INFO spawned: 'farmerservice' with pid 29597
+2021-06-18 15:22:15,568 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:22:17,574 INFO spawned: 'farmerservice' with pid 29601
+2021-06-18 15:22:17,839 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:22:20,847 INFO spawned: 'farmerservice' with pid 29606
+2021-06-18 15:22:21,241 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:22:22,242 INFO gave up: farmerservice entered FATAL state, too many start retries too quickly
+2021-06-18 15:23:22,188 INFO spawned: 'farmerservice' with pid 29748
+2021-06-18 15:23:22,491 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:23:23,496 INFO spawned: 'farmerservice' with pid 29752
+2021-06-18 15:23:23,813 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:23:25,851 INFO spawned: 'farmerservice' with pid 29756
+2021-06-18 15:23:26,143 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:23:29,615 INFO spawned: 'farmerservice' with pid 29760
+2021-06-18 15:23:29,879 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:23:30,194 INFO gave up: farmerservice entered FATAL state, too many start retries too quickly
+2021-06-18 15:23:43,820 INFO spawned: 'farmerservice' with pid 29765
+2021-06-18 15:23:44,137 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:23:45,142 INFO spawned: 'farmerservice' with pid 29769
+2021-06-18 15:23:45,426 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:23:46,457 ERRO 127.0.0.1:54404 - - [18/Jun/2021:09:53:46 +0530] "GET /?message=ERROR%3A%20Process%20farmerservice%3A%20spawn%20error HTTP/1.1" 200 2633
+2021-06-18 15:23:47,461 INFO spawned: 'farmerservice' with pid 29773
+2021-06-18 15:23:47,701 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:23:50,710 INFO spawned: 'farmerservice' with pid 29778
+2021-06-18 15:23:50,945 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:23:51,946 INFO gave up: farmerservice entered FATAL state, too many start retries too quickly
+2021-06-18 15:25:50,592 INFO spawned: 'farmerservice' with pid 29797
+2021-06-18 15:25:50,922 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:25:51,927 INFO spawned: 'farmerservice' with pid 29801
+2021-06-18 15:25:52,158 INFO waiting for farmerservice to stop
+2021-06-18 15:25:52,159 INFO stopped: farmerservice (terminated by SIGTERM)
+2021-06-18 15:25:55,492 INFO spawned: 'farmerservice' with pid 29803
+2021-06-18 15:25:55,837 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:25:57,875 INFO spawned: 'farmerservice' with pid 29810
+2021-06-18 15:25:58,114 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:26:02,004 INFO spawned: 'farmerservice' with pid 29816
+2021-06-18 15:26:02,290 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:26:02,648 INFO gave up: farmerservice entered FATAL state, too many start retries too quickly
+2021-06-18 15:31:28,180 INFO spawned: 'farmerservice' with pid 29927
+2021-06-18 15:31:28,502 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:31:29,507 INFO spawned: 'farmerservice' with pid 29931
+2021-06-18 15:31:29,814 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:31:31,848 INFO spawned: 'farmerservice' with pid 29935
+2021-06-18 15:31:32,087 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:31:36,084 INFO spawned: 'farmerservice' with pid 29939
+2021-06-18 15:31:36,318 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:31:37,320 INFO gave up: farmerservice entered FATAL state, too many start retries too quickly
+2021-06-18 15:33:58,422 INFO spawned: 'farmerservice' with pid 29959
+2021-06-18 15:33:58,745 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:33:59,751 INFO spawned: 'farmerservice' with pid 29965
+2021-06-18 15:34:00,061 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:34:02,097 INFO spawned: 'farmerservice' with pid 29973
+2021-06-18 15:34:02,330 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:34:05,340 INFO spawned: 'farmerservice' with pid 29978
+2021-06-18 15:34:05,571 INFO exited: farmerservice (exit status 3; not expected)
+2021-06-18 15:34:06,573 INFO gave up: farmerservice entered FATAL state, too many start retries too quickly
+2021-06-19 21:43:27,703 WARN received SIGTERM indicating exit request

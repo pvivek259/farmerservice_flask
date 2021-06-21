@@ -1,0 +1,22 @@
+<bound method Request.get_data of <Request 'http://127.0.0.1:8001/getfarmer?phone_no=98932349' [GET]>>
+<bound method Request.get_data of <Request 'http://127.0.0.1:8001/getfarmer?phone_no=98932349' [GET]>>
+<bound method Request.get_json of <Request 'http://127.0.0.1:8001/shippingAddress?phone_no=98932349' [GET]>>
+<bound method Request.get_json of <Request 'http://127.0.0.1:8001/shippingAddress?phone_no=98932349' [GET]>>
+<bound method Request.get_json of <Request 'http://127.0.0.1:8001/shippingAddress?phone_no=98932349' [GET]>>
+<bound method Request.get_json of <Request 'http://127.0.0.1:8001/shippingAddress?phone_no=98932349' [GET]>>
+<bound method Request.get_json of <Request 'http://127.0.0.1:8001/shippingAddress?phone_no=98932349' [GET]>>
+<bound method Request.get_json of <Request 'http://127.0.0.1:8001/shippingAddress?phone_no=98932349' [GET]>>
+<bound method Request.get_json of <Request 'http://127.0.0.1:8001/shippingAddress?phone_no=98932349' [GET]>>
+<bound method Request.get_json of <Request 'http://127.0.0.1:8001/shippingAddress?phone_no=98932349' [GET]>>
+<bound method Request.get_json of <Request 'http://127.0.0.1:8001/shippingAddress?phone_no=98932349' [GET]>>
+<bound method Request.get_data of <Request 'http://127.0.0.1:8001/getfarmer?phone_no=98932349' [GET]>>
+<bound method Request.get_json of <Request 'http://127.0.0.1:8001/shippingAddress?phone_no=98932349' [GET]>>
+<bound method Request.get_data of <Request 'http://127.0.0.1:8001/getfarmer?phone_no=98932349' [GET]>>
+<bound method Request.get_data of <Request 'http://127.0.0.1:8001/getfarmer?phone_no=98932349' [GET]>>
+<bound method Request.get_data of <Request 'http://127.0.0.1:8001/getfarmer?phone_no=98932349' [GET]>>
+<bound method Request.get_data of <Request 'http://127.0.0.1:8001/getfarmer?phone_no=98932349' [GET]>>
+<bound method Request.get_data of <Request 'http://127.0.0.1:8001/getfarmer?phone_no=98932349' [GET]>>
+<bound method Request.get_data of <Request 'http://127.0.0.1:8001/getfarmer?phone_no=98932349' [GET]>>
+{'name': 'shaan', 'address1': 't-3', 'address2': 'dhapuri', 'village': 'kadi', 'city': 'garh', 'pin_code': 234124, 'country': 'India', 'phone_no': 9826738389}
+9826738389
+<bound method Request.get_json of <Request 'http://127.0.0.1:8001/shippingAddress?phone_no=98932349' [GET]>>

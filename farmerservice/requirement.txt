@@ -1,0 +1,7 @@
+packages required : {
+    'flask',
+    'flask_restful',
+    'flask_json_schema',
+    'gunicorn',
+    'supervisor',
+}

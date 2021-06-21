@@ -1,12 +1,11 @@
+import django
+django.setup()
 from flask import jsonify
 import json
-import jsonschema
-from farmerservice.dao.schemas import create_farmer_schema
-from agrostardb.deliveryapp.models import Farmer, ShippingAddress
+from farmer.models import Farmer,ShippingAddress
 
-def add_shipping_address(request):
+def add_shipping_address(request_param):
     # Get the param
-    request_param=json.loads(request.body)
     print(request_param)
     phone_number = request_param.get("phone_no")
     print(phone_number)
@@ -26,18 +25,15 @@ def add_shipping_address(request):
     #save shipping address object
     shipping_address_object.save()
     output={"success":True,
-                "message":"succesfully added the address."}
+                "message":"succesfully added the  shippingAddress."}
 
     return jsonify(output)
 
 
 
-def get_shipping_address(request):
-    request_param= request.GET  #get the param
-    print (request_param)
+def get_shipping_address(request_param):
     phone_number= request_param.get("phone_no")
-    print(phone_number)
-    #get the farmer object
+       #get the farmer object
     farmer_obj = Farmer.objects.get(phone_no = phone_number)
     #get shipping addresses object, and add farmer ID
     shipping_address_objs= farmer_obj.shippingaddress_set.all()

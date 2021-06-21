@@ -21,12 +21,8 @@ create_farmer_schema = {
                 "village": {"type": "string"},
                 "city": {"type": "string"},
                 "country": {"type": "string"},
-                
-                
-                
-
             },
-            "required":["name", "address2", "shipping_address"]
+            "required":["name", "address2", ]
         }
     },
     "required" :["name", "phone_no", "email", "primary_address"]

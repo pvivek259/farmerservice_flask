@@ -1,8 +1,7 @@
 from flask import jsonify
-import json
 import jsonschema
-from farmerservice.dao.schemas import create_farmer_schema
-from agrostardb.farmer.models import Farmer, Shippingaddress
+from dao.schemas import create_farmer_schema
+from farmer.models import Farmer, PrimaryAddress
 
 
 def create_farmer(request_param):
@@ -54,21 +53,20 @@ def create_farmer(request_param):
 
 
 
-def farmer_list(request):
-    if request.method == 'GET':
-        all_farmer_objs = Farmer.objects.all()
-        result = []
-        for farmer_obj in all_farmer_objs:
-            output={"id":farmer_obj.id, 
-            "name": farmer_obj.name,
-            "email": farmer_obj.email,
-            "phone_no": farmer_obj.phone_no,
-            "primary_address": parse_primary_address( farmer_obj.primary_address)
-            }
-            result.append(output)
+def farmer_list(request_data):
+    all_farmer_objs = Farmer.objects.all()
+    result = []
+    for farmer_obj in all_farmer_objs:
+        output={"id":farmer_obj.id, 
+        "name": farmer_obj.name,
+        "email": farmer_obj.email,
+        "phone_no": farmer_obj.phone_no,
+        "primary_address": parse_primary_address( farmer_obj.primary_address)
+        }
+        result.append(output)
 
-        new_format_result_json ={"data":result}
-        return jsonify(new_format_result_json)
+    new_format_result_json ={"data":result}
+    return jsonify(new_format_result_json)
 
 def parse_primary_address(primary_address):
     primary_address_json = {}
@@ -86,9 +84,7 @@ def parse_primary_address(primary_address):
 
 #Able to get farmer by phone number.
 
-def get_farmer(request):
-    request_param=request.GET
-    print(request_param)
+def get_farmer(request_param):
     phone_number = request_param.get("phone_no")
     print(phone_number)
     farmer_objects = Farmer.objects.get(phone_no = phone_number)
