@@ -5,3 +5,5 @@ packages required : {
     'gunicorn',
     'supervisor',
 }
+
+export= [export DJANGO_SETTINGS_MODULE="agrostardb.settings"]

@@ -37,8 +37,6 @@ def create_farmer(request_param):
     
     # if farmner object allready have primary address get it else create it
   
-    
-    
     primary_address_object = PrimaryAddress.objects.create(
         name = primary_address_param.get("name"),
         pin_code = primary_address_param.get("pin_code")
