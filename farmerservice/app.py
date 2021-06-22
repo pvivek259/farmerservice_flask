@@ -11,8 +11,8 @@ api.add_resource(FarmerHandler, '/farmer')
 api.add_resource(GetFarmer, '/getfarmer')
 api.add_resource(ShippingAddressHandler, '/shippingAddress')
 
-#@app.route('/test')
-#def index():
- #   return jsonify({'message': 'success',
-   #                 'email': 'Yes i am wokring'})
+@app.route('/test')
+def index():
+  return jsonify({"Yes, i am working."})
 
+app.run(host='0.0.0.0', port="9005")

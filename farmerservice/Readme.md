@@ -1,4 +1,4 @@
-farmerservice is a flask base project.
+farmerservice is a flask based project.
 
 farmerservice looks like 
 

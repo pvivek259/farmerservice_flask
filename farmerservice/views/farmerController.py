@@ -1,7 +1,9 @@
+from utils.errors import PhoneNoDoesNotExitsError
 from flask import jsonify
 import jsonschema
 from dao.schemas import create_farmer_schema
 from farmer.models import Farmer, PrimaryAddress
+from django.core.exceptions import ObjectDoesNotExist
 
 
 def create_farmer(request_param):
@@ -19,20 +21,30 @@ def create_farmer(request_param):
         error_response={"message":"please give phone Number."}
         return jsonify(error_response)
 
+        
+
     #add other details and save
     farmer_object, ok =  Farmer.objects.get_or_create(phone_no = phone_num)
     farmer_object.name = request_param.get("name")
     farmer_object.email = request_param.get("email")
+    #farmer_object.primary_address = request_param.get("primary_address")
     farmer_object.save()
 
 
     #Create primary address
 
     primary_address_param = request_param.get("primary_address")
+    
+    # if farmner object allready have primary address get it else create it
+  
+    
+    
     primary_address_object = PrimaryAddress.objects.create(
         name = primary_address_param.get("name"),
         pin_code = primary_address_param.get("pin_code")
     )
+
+
     primary_address_object.address1 = primary_address_param.get("address1")
     primary_address_object.address2 = primary_address_param.get("address2")
     primary_address_object.village = primary_address_param.get("village")
@@ -50,9 +62,6 @@ def create_farmer(request_param):
     return jsonify(output)
 
 
-
-
-
 def farmer_list(request_data):
     all_farmer_objs = Farmer.objects.all()
     result = []
@@ -61,7 +70,7 @@ def farmer_list(request_data):
         "name": farmer_obj.name,
         "email": farmer_obj.email,
         "phone_no": farmer_obj.phone_no,
-        "primary_address": parse_primary_address( farmer_obj.primary_address)
+        "primary_address": parse_primary_address(farmer_obj.primary_address)
         }
         result.append(output)
 
@@ -70,6 +79,10 @@ def farmer_list(request_data):
 
 def parse_primary_address(primary_address):
     primary_address_json = {}
+
+    if primary_address==None:
+        return primary_address_json
+        
     primary_address_json["id"] = primary_address.id
     primary_address_json["name"] = primary_address.name
     primary_address_json["address1"] = primary_address.address1
@@ -81,15 +94,17 @@ def parse_primary_address(primary_address):
     return primary_address_json
 
 
-
 #Able to get farmer by phone number.
 
 def get_farmer(request_param):
     phone_number = request_param.get("phone_no")
-    print(phone_number)
-    farmer_objects = Farmer.objects.get(phone_no = phone_number)
+    try:
+        farmer_objects = Farmer.objects.get(phone_no = phone_number)
+       
+    except ObjectDoesNotExist:
+        raise  PhoneNoDoesNotExitsError(" Given phone_no does not exists",400)
+
     farmer_objs= farmer_objects.name
     result_json ={"Farmer":farmer_objs}
     return jsonify(result_json)
-
 

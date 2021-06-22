@@ -27,3 +27,24 @@ create_farmer_schema = {
     },
     "required" :["name", "phone_no", "email", "primary_address"]
 }
+
+
+
+
+
+create_shippingaddress_schema={
+            "name":"shipping_address",
+            "type": "object",
+            "properties": {
+                "name": {"type": "string"},
+                "address1": {"type": "string"},
+                "address2":{"type":"string"},
+                "pin_code":{"type":"number"},
+                "phone_no":{"type":"number"},
+                "village": {"type": "string"},
+                "city": {"type": "string"},
+                "country": {"type": "string"},
+            },
+            "required":["name","country","city"]
+
+}
