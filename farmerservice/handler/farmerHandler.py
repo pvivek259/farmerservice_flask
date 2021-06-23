@@ -22,3 +22,6 @@ class GetFarmer(Resource):
         request_data = request.args
         resp = get_farmer(request_data)
         return resp
+
+
+# code added in master branch branch code
