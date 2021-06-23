@@ -3,7 +3,7 @@ from flask_restful import Resource
 from flask import request
 
 class FarmerHandler(Resource):
-# create farmer
+# create farmer dev branch code
     def post(self):
         request_data = request.get_json(force=True)
         resp = create_farmer(request_data)
